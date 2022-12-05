@@ -47,7 +47,10 @@
   background-color: rgb(154, 193, 209);
 }
 
-
+#padding{
+  padding: 15px;
+  margin: 15px;
+}
 
 
 
