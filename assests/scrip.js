@@ -29,7 +29,7 @@
         document.getElementById("end").innerHTML = "SEATTLE STUPID HOES!!";
     }
     }, 1000);
-
+  
     const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 
     const alert = (message, type) => {
@@ -47,6 +47,6 @@
     const alertTrigger = document.getElementById('liveAlertBtn')
     if (alertTrigger) {
       alertTrigger.addEventListener('click', () => {
-        alert('Nice, now you know carlos is gay and the 9ers suck ass.', 'success')
+        alert('Nice, now you know carlos is gay and the 9ers suck ass and we missed 2 good weekends thanks to carlos', 'success','')
       })
     }
